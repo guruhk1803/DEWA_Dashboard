@@ -1,0 +1,75 @@
+/* StudentDashboard.css */
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .video-container {
+    margin-bottom: 20px;
+  }
+  
+  #background-video {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+  .content {
+    flex-grow: 1;
+    padding: 20px 50px; /* Increased left and right padding for extra space */
+    background: #fff;
+    margin-top: 354px;
+    margin-right: -5px;
+    margin-left: 5px;
+    
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 50px;
+    background: #001529;
+    color: #fff;
+    flex-shrink: 0;
+    margin-bottom : -1200px
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    text-align: left;
+    margin: 0 20px;
+  }
+  
+  .footer-section h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  
+  /* .app-links {
+    margin-top: 10px;
+  }
+  
+  .app-links img {
+    margin-right: 10px;
+    width: 120px;
+    height: auto;
+  }
+   */

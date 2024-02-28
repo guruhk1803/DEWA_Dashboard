@@ -1,0 +1,264 @@
+
+
+
+
+/* Home.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333333;
+}
+
+
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.home-container {
+  position: relative; 
+  text-align: center;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin-bottom: 20px;
+}
+
+.logo-left,
+.logo-right {
+  height: 60px;
+}
+
+.language-tab {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #00796b; 
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.language-tab:hover {
+  background-color: #004d40; 
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.login-section {
+  margin-bottom: 30px;
+}
+
+.login-options {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-option {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.login-option:hover {
+  background-color: #f5f5f5;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #004d40; 
+}
+
+.link {
+  display: block;
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #00796b; 
+}
+
+.signup-section {
+  background-color: grey; 
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.signup-section:hover {
+  background-color: white;
+}
+
+.learning-sections {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media (min-width: 768px) {
+  .home-container {
+    max-width: 1200px;
+  }
+}
+
+
+.logos-bottom-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.social-logo-small {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  padding: 0 2px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.logo-text {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
+
+.happiness-meter-container {
+  position: relative;
+}
+
+.happiness-meter-icon {
+  font-size: 40px; 
+  cursor: pointer;
+}
+
+.happiness-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  width: 300px; 
+}
+
+.happiness-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.smiley-options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.smiley-option {
+  font-size: 40px; 
+  cursor: pointer;
+}
+
+.big {
+  font-size: 60px !important; 
+}
+
+.selected {
+  color: #4caf50;
+}
+
+.close-button {
+  background-color: #ff5252; 
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #4caf50; 
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.help-chat-button-bottom-left {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1; /* Equal width for each section */
+  padding: 20px; /* Adjust as needed */
+  box-sizing: border-box;
+}
+
+.footer-section h2 {
+  color: #333; /* Adjust the color as needed */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+/* Style for the copyright section */
+.footer-section:last-child {
+  text-align: center;
+  padding-top: 20px; /* Adjust as needed */
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.footer-section:last-child h2 {
+  margin-bottom: 10px;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: #555; /* Adjust the color as needed */
+}

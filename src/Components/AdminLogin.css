@@ -1,0 +1,71 @@
+/* AdminLogin.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: grey; /* Teal background color */
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color and opacity */
+  position: relative;
+  z-index: 1;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: transparent; /* Make the input background transparent */
+  color: #fff; /* Text color */
+}
+
+Button {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #3498db; /* Darker teal button color */
+  color: #fff; /* Text color */
+}
+
+div {
+  margin: 15px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: #fff; /* Text color */
+}
+
+p {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color and opacity */
+}
+
+p a {
+  color: #3498db; /* Teal link color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p a:hover {
+  text-decoration: underline;
+}

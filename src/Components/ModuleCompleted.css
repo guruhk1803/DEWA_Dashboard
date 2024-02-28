@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #fff; /* White background color */
+    color: grey; /* Dark green text color */
+  }
+  
+  .completed-modules-container {
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: grey; /* Dark green background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjusted box-shadow for a darker effect */
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  .header-info {
+    flex: 1; /* Take remaining space in the header */
+  }
+  
+  .header-title {
+    font-size: 24px;
+    color: #fff; /* White heading text color */
+  }
+  
+  .header-description {
+    margin-bottom: 10px;
+    color: #fff; /* White text color for description */
+  }
+  
+  .ant-table {
+    width: 100%;
+  }
+  
+  .ant-table-thead {
+    background-color: grey; /* Dark green background color for table headings */
+  }
+  
+  .ant-table-tbody {
+    background-color: #fff; /* White background color for the table body */
+    color: grey; /* Dark green text color for table body */
+  }
+  
+  .ant-table-content {
+    overflow-x: auto;
+  }
+  
